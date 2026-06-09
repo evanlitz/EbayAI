@@ -1,0 +1,44 @@
+# Credentials — never commit
+.env
+auth.json
+
+# Claude Code — memory, plans, project instructions
+.claude/
+CLAUDE.md
+CLAUDE_COMMANDS.md
+
+# Project markdown (API refs, planning docs)
+ebay_browse_api.md
+GUI_PLAN.md
+auction_feature_plan.md
+plans/
+
+# Debug scripts
+debug_*.py
+
+# Runtime artifacts
+cache.db
+*.db
+cache/
+notifications/
+settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
